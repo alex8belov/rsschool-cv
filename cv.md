@@ -7,11 +7,13 @@
 + **GitHub:** [@alex8belov](https://github.com/alex8belov)
 
 ***
+
 ## About Me
 
 I am learning Front end.
 
 ***
+
 ## Skills
 
 + HTML/CSS
@@ -20,6 +22,7 @@ I am learning Front end.
 + Figma
 
 ***
+
 ## Code Example
 ``` 
 function sum(a, b) {
@@ -28,6 +31,7 @@ function sum(a, b) {
 ```
 
 ***
+
 ## English
 A1
 
