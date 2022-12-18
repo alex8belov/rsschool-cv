@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style:square;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+.avatar-bio {
+    margin-right: 10px;
+}
+.nav-link {
+    text-decoration: none;
+}
+.avatar-bio {
+    width: 50px;
+    height: 50px;
+}
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+.logo-rs {
+    height: 30px;
+}
