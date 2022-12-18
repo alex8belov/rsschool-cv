@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Alex Belov</h1>
+    <header class="header">
+        <div class="header-title">
+            <img class="avatar-bio" src="img/69796578.png" alt="avatar">
+            <h1 class="title-bio">Alex Belov</h1>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#code-example">Code Example</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#english">English</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-info">
+        <h2 class="main-title">Contacts</h2>
+        <ul class="contacts-list">
+            <li class="contacts-item">Location: Russia, Ivanovo</li>
+            <li class="contacts-item">Telegram: <a href="https://t.me/alex8belov">@alex8belov</a></li>
+            <li class="contacts-item">Email: <a href="mailto:alex8belov@gmail.com">alex8belov@gmail.com</a></li>
+        </ul>
+        <h2 class="main-title" id="about-me">About Me</h2>
+        <p class="main-text">I am learning Front end.</p>
+        <h2 class="main-title" id="skills">Skills</h2>
+        <ul class="skills-list">
+            <li class="skills-item">HTML/CSS</li>
+            <li class="skills-item">JavaScript(Basics)</li>
+            <li class="skills-item">Git</li>
+            <li class="skills-item">Figma</li>
+        </ul>
+        <h2 class="main-title" id="code-example">Code Example</h2>
+        <pre><code class="code">
+                function sum(a, b) {
+                    return a + b;
+                  }
+        </code></pre>
+        <h2 class="main-title">My works</h2>
+        <p><a href="https://alex8belov.github.io/coffee-house-landing/">Landing page Coffee House</a><br><a href="https://github.com/alex8belov/coffee-house-landing">Landing page Coffee House (source)</a></p>
+        <h2 class="main-title">Education</h2>
+        <p>Ivanovo Energy University</p>
+        <h2 class="main-title" id="english">English</h2>
+        <p class="main-text">A1</p>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/alex8belov">GitHub: @alex8belov</a>
+        <p class="copyright">2022</p>
+        <a href="https://rs.school/js/"><img class="logo-rs" src="./img/rs_school_js.svg"></a>
+    </footer>
 </body>
 </html>
