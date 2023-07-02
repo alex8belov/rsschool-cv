@@ -9,5 +9,7 @@ HTML, CSS, JavaScript, Git
 Not yet
 # Experience
 None
+# School
+Computer Ingineering
 # Language
 English: entry
