@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: cyan;
+    font-family: 'Open-sans', sans-serif;
+}
+ul {
+    display: inline-block;
+}
+li {
+    text-align: left;
+}
+code {
+    background-color: darkcyan;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.school-logo {
+    height: 30px;
+}
